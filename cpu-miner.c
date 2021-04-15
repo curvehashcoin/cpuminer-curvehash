@@ -1849,7 +1849,6 @@ static void stratum_gen_work(struct stratum_ctx *sctx, struct work *work)
 		}
 
 		switch (opt_algo) {
-			case ALGO_CURVEHASH:	
 			case ALGO_DROP:
 			case ALGO_JHA:
 			case ALGO_SCRYPT:
